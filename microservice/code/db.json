@@ -1,7 +1,67 @@
 {
   "meta": {
-    "tile": "List of animals",
+    "tile": "Activity",
     "date": "September 2024"
   },
-  "animals" : ["dog", "cat", "elephant", "lion"]
+  "activities": [
+    {
+      "id": "1",
+      "title": "Activity 1",
+      "date": "2023-12-10",
+      "link": "https://example.com"
+    },
+    {
+      "id": "2",
+      "title": "Activity 2",
+      "date": "2023-12-12",
+      "link": "https://example2.com"
+    },
+    {
+      "id": "3",
+      "title": "aac",
+      "date": "aa",
+      "link": "#",
+      "createdAt": "12/12/2024, 9:39:20 AM"
+    },
+    {
+      "id": "4",
+      "title": "aaaaa",
+      "date": "2025-12-12",
+      "link": "#",
+      "createdAt": "12/12/2024, 9:39:45 AM"
+    },
+    {
+      "id": "5",
+      "title": "BoerenMarkt",
+      "date": "2025-02-02",
+      "link": "#",
+      "createdAt": "12/12/2024, 11:16:40 AM"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "activityId": "1",
+      "reviewer": "John Doe",
+      "rating": 5,
+      "comment": "Great activity!",
+      "createdAt": "2023-12-11, 12:00:00"
+    },
+    {
+      "id": "2",
+      "activityId": "5",
+      "reviewer": "Melanie brinkhaltes",
+      "rating": 4,
+      "comment": "Echt top volgende keer wil ik wel gratis naar de wc",
+      "createdAt": "12/17/2024, 11:13:54 AM"
+    },
+    {
+      "id": "3",
+      "activityId": "5",
+      "reviewer": "Anne Fleur",
+      "rating": 2,
+      "comment": "echt een stomme markt",
+      "createdAt": "12/17/2024, 11:16:57 AM"
+    }
+  ]
 }

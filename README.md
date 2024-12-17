@@ -23,3 +23,7 @@ You can change the ports of your server via `variables.env`
 ## Containers
 
 Check the readme files of each container to understand the setup
+
+## Docker
+
+There was an error with NPM that comes with the newest version of Node. We downgraded node:lts to 21.7.3 to include a non-errorrenous npm version. See this [bug report](https://github.com/npm/cli/issues/7900).
